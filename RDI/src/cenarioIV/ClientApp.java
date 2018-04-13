@@ -60,11 +60,11 @@ public class ClientApp extends Thread {
 				//interval = -1.0/ARRIVAL_RATE*Math.log(Math.random());
 				sleep((long)(interval*1000.0)); // Conversão para miliseg.
 
-			} catch (SocketException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			} catch (InterruptedException e) {
+//			} catch (SocketException e) {
+//				e.printStackTrace();
+//			} catch (IOException e) {
+//				e.printStackTrace();
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}

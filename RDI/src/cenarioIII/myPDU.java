@@ -70,7 +70,7 @@ public class myPDU {
 			
 			// Construir a IDU
 			userIDU = new DatagramPacket(data, data.length, udp.getSocketAddress());
-		} catch (SocketException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
