@@ -29,7 +29,7 @@ public class ClientApp extends Thread {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 		}
-        
+        //teste
 		// Envio de 25 mensagens ('A' a 'Y')- com um tamanho de 100 bytes cada
 		for (int i=0; i<25; i++) {
 			byte[] data = new byte[100];
